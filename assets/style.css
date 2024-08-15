@@ -102,7 +102,8 @@ main {
     transform: rotate(45deg);
 }
 
-.icono-gasto, .icono-ingreso {
+.icono-gasto,
+.icono-ingreso {
     width: 60px;
     height: 60px;
     background-color: #007bff;
@@ -114,10 +115,12 @@ main {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transform: rotate(-45deg); /* Corrige la rotación para mantener el ícono en posición normal */
+    transform: rotate(-45deg);
+    /* Corrige la rotación para mantener el ícono en posición normal */
 }
 
-.icono-gasto:hover, .icono-ingreso:hover {
+.icono-gasto:hover,
+.icono-ingreso:hover {
     background-color: #0056b3;
 }
 
@@ -157,13 +160,15 @@ footer {
         font-size: 24px;
     }
 
-    .gastos-frecuentes, .ingresos-frecuentes {
+    .gastos-frecuentes,
+    .ingresos-frecuentes {
         width: 160px;
         height: 160px;
         gap: 15px;
     }
 
-    .icono-gasto, .icono-ingreso {
+    .icono-gasto,
+    .icono-ingreso {
         width: 50px;
         height: 50px;
         font-size: 20px;
