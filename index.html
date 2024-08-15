@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyApp - Seguimiento de Gastos</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">MyApp</div>
+        <div class="menu">
+            <button id="menuButton">☰</button>
+            <ul id="menuItems" class="hidden">
+                <li>Opción 1</li>
+                <li>Opción 2</li>
+                <li>Opción 3</li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="total-container">
+            <div class="total">
+                <h1 id="totalGastos">0.00</h1>
+                <span>Soles</span>
+            </div>
+            <div id="icon-container" class="gastos-frecuentes hidden"></div>
+        </div>
+    </main>
+
+    <footer>
+        <button id="btnIngresos" class="action-button">Agregar Ingresos</button>
+        <button id="btnGastos" class="action-button">Agregar Egresos</button>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
