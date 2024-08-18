@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi App de Finanzas</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="app-name">Mi App de Finanzas</div>
+        <button id="menu-button">☰</button>
+    </header>
+
+    <main>
+        <div class="month" id="month-display">Agosto 2024</div>
+        <div class="total-amount-container">
+            <div class="total-amount" id="total-amount">0.00</div>
+            <div class="icons-container" id="icons-container"></div>
+        </div>
+    </main>
+
+    <footer>
+        <button id="add-income">Agregar Ingreso</button>
+        <button id="add-expense">Agregar Egreso</button>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title">Agregar Monto</h2>
+            <input type="number" id="modal-input" placeholder="Ingresa el monto">
+            <button id="modal-save">Guardar</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+
+</html>
